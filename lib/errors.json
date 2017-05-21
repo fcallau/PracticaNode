@@ -1,0 +1,54 @@
+{
+	"errors": [
+		{
+			"clave": "USER_NOT_FOUND",
+			"es": "Usuario no encontrado",
+			"en": "User not found"
+		},
+		{
+			"clave": "MORE_THAN_ONE_USER",
+			"es": "Encontrado más de un usuario con el mismo email",
+			"en": "More than one user found with the same email"
+		},
+		{
+			"clave": "USER_SAVED",
+			"es": "Usuario guardado",
+			"en": "Saved user"
+		},
+		{
+			"clave": "ERROR_SAVING_USER",
+			"es": "Error al guardar usuario",
+			"en": "Error saving the user"
+		},
+		{
+			"clave": "EMAIL_AND_PASS_NOT_FOUND",
+			"es": "El email y clave introducidos no se encuentran.",
+			"en": "email and pass not found."
+		},
+		{
+			"clave": "ERROR_AUTHENTICATING",
+			"es": "Error al autenticar usuario ",
+			"en": "Error authenticating user "
+		},
+		{
+			"clave": "FORMAT_PRICE_NOT_ACCEPTED",
+			"es": "Formato precio no aceptado.",
+			"en": "Format price not accepted."
+		},
+		{
+			"clave": "HAVE_TO_BE_AUTHENTICATED",
+			"es": "Petición aceptada si está autenticado",
+			"en": "Request accepted if authenticated"
+		},
+		{
+			"clave": "INCORRECT_FORMAT_PARAMETERS",
+			"es": "Nombre no informado o formato email incorrecto o clave con menos de 4 caracteres.",
+			"en": "Name not informed or incorrect email format or pass less than 4 characters."
+		},
+		{
+			"clave": "EXIST_USER",
+			"es": "Este email ya existe. Regístrese con otro email por favor.",
+			"en": "The email exists. Please, try to register with another email."
+		}
+	]
+}

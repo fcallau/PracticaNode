@@ -1,0 +1,25 @@
+Desde http://www.json-generator.com
+
+[
+  '{{repeat(500)}}',
+  {
+    nombre: '{{lorem(1, "words")}}',
+    venta: '{{bool()}}',
+    precio: '{{floating(10, 999, 2, "0.00")}}',
+    foto: function (tags) {
+      var extensions = ['.jpg', '.png'];
+      return this.nombre + extensions[tags.integer(0, extensions.length - 1)];
+    },
+    tags: function () {
+      var possibleTags = ['work', 'lifestyle', 'motor', 'mobile'];
+      var numTagsToReturn = Math.floor(Math.random() * possibleTags.length);
+      var tagsArray = new Array();
+      
+      for (var i = 0; i <= numTagsToReturn; i++) {
+        tagsArray.push(possibleTags.splice(Math.floor(Math.random() * possibleTags.length), 1)[0]);
+      }
+      
+      return tagsArray;
+    }
+  }
+]
