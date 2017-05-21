@@ -1,6 +1,6 @@
 # Nodepop
 
-**Nodepop** es un servicio API que usa juntamente con una BBDD MongoDB. Proporciona la posibilidad de obtener información de los anuncios y de los usuarios. Los modelos de datos usados son *Anuncios* y *Usuarios*.
+**Nodepop** es un servicio API que se usa juntamente con una BBDD MongoDB. Proporciona la posibilidad de obtener información de los anuncios y de los usuarios. Los modelos de datos usados son *Anuncios* y *Usuarios*.
 
 Modelo Anuncios:
 
