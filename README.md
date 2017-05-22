@@ -97,7 +97,7 @@ Genera la salida:
 
 Las imágenes se obtienen usando la ruta relativa que nos devuelve la consulta de anuncios. Ejemplos:
 
-> ```http://localhost:3000/images/anuncios/iphone.pn```
+> ```http://localhost:3000/images/anuncios/iphone.png```
 
 > ```http://localhost:3000/images/anuncios/bici.jpg```
 
