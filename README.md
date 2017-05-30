@@ -99,7 +99,7 @@ Las imágenes se obtienen accediendo usando la ruta relativa que nos devuelve la
 
 > ```http://localhost:3000/images/anuncios/iphone.pn```
 
-> ```ttp://localhost:3000/images/anuncios/bici.jpg```
+> ```http://localhost:3000/images/anuncios/bici.jpg```
 
 ### Obtener listado de tags
 No es necesaria la autenticación para usar esta petición. Devuelve dos objetos, el *usedTags* que contiene los tags existentes en la BBDD y el *availableTags* que son los que se pueden usar. Ejemplo de uso:
