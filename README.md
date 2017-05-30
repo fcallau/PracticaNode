@@ -1,6 +1,6 @@
 # Nodepop
 
-**Nodepop** es un servicio API que usa juntamente con una BBDD MongoDB. Proporciona la posibilidad de obtener información de los anuncios y de los usuarios. Los modelos de datos usados son *Anuncios* y *Usuarios*.
+**Nodepop** es un servicio API que se usa juntamente con una BBDD MongoDB. Proporciona la posibilidad de obtener información de los anuncios y de los usuarios. Los modelos de datos usados son *Anuncios* y *Usuarios*.
 
 Modelo Anuncios:
 
@@ -95,9 +95,9 @@ Genera la salida:
   }
 }
 
-Las imágenes se obtienen accediendo usando la ruta relativa que nos devuelve la consulta de anuncios. Ejemplos:
+Las imágenes se obtienen usando la ruta relativa que nos devuelve la consulta de anuncios. Ejemplos:
 
-> ```http://localhost:3000/images/anuncios/iphone.pn```
+> ```http://localhost:3000/images/anuncios/iphone.png```
 
 > ```http://localhost:3000/images/anuncios/bici.jpg```
 
