@@ -1,5 +1,16 @@
 # Nodepop
 
+**Para poder ser evaluada la práctica *Despliegue de Aplicaciones en Servidor*:**
+
+URL donde está desplegada la práctica para que pueda ser evaluada:
+
+- IP: 34.203.21.81
+- Dominio: http://fcallau.com/
+- Nodepop: https://nodepop.fcallau.com/
+- Archivos estáticos: https://nodepop.fcallau.com/images/anuncios/bici.jpg y https://nodepop.fcallau.com/images/anuncios/iphone.png
+
+
+
 **Nodepop** es un servicio API que se usa juntamente con una BBDD MongoDB. Proporciona la posibilidad de obtener información de los anuncios y de los usuarios. Los modelos de datos usados son *Anuncios* y *Usuarios*.
 
 Modelo Anuncios:
@@ -45,7 +56,7 @@ Solo pueden autenticarse los usuarios que previamente se hayan registrado. Se us
 
 ### Obtener listado de anuncios
 
-La lista de los anuncios solo la pueden recibir los usuarios autenticados, por lo que el parámetro token recibido de la autenticación, debe pasarse por la query-string. Los anuncios pueden filtrarse por nombre, si se trata de un artículo que está a la venta o se compra, por intervalo de precio o por tags (ver más adelante la obtenicón de los tags). A la vez se puede usar criterio de ordenación y la posibilidad de escoger algunos de los registros devueltos (desde que anuncio y cuantos anuncios se quieren obtener). Ejemplos:
+La lista de los anuncios solo la pueden recibir los usuarios autenticados, por lo que el parámetro token recibido de la autenticación, debe pasarse por la query-string. Los anuncios pueden filtrarse por nombre, si se trata de un artículo que está a la venta o se compra, por intervalo de precio o por tags (ver más adelante la obtención de los tags). A la vez se puede usar criterio de ordenación y la posibilidad de escoger algunos de los registros devueltos (desde que anuncio y cuantos anuncios se quieren obtener). Ejemplos:
 
 La petición:
 
